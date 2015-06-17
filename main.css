@@ -1,0 +1,149 @@
+/* ADD YOUR STYLES HERE */
+
+/* GENERAL POSITIONING */
+.padding {
+	padding: 25px;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.vert-top {
+	vertical-align: top;
+}
+
+.vertical-align {
+	position: relative;
+	height: 400px;
+
+}
+
+.vert-middle {
+	position: absolute;
+	top: 50%;
+}
+
+
+/* BUTTONS */
+.btn-wrap {
+	position: relative;
+}
+
+.btn {
+	background-color: indianred;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn-lg, a.btn-lg {
+	width: 200px;
+	padding: 20px 0px;
+	border-radius: 5px;
+    font-size: 22px;
+}
+
+.btn-med, a.btn-med {
+	width: 150px;
+	padding: 10px 0px;
+	border-radius: 5px;
+    font-size: 18px;
+}
+
+.btn-sm, a.btn-sm {
+	width: 80px;
+	padding: 5px 0px;
+	border-radius: 5px;
+    font-size: 12px;
+}
+
+/* NAVIGATION */
+nav {
+	height: 30px;
+	width: 80%;
+	border-radius: 5px;
+	background-color: indianred;
+	padding-top: 10px;
+}
+
+a.nav-link {
+	padding: 10px 27px;
+}
+
+a.nav-link:hover, .btn:hover {
+	background-color: rgb(171, 51, 51);
+}
+
+/* PAGNATION */
+.pagination {
+	border-bottom: solid 3px indianred;
+	padding-bottom: 10px;
+}
+
+a.pag-link {
+	color: indianred;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.pag-active { /* this is below .pagination to override border color */
+	color: #999;
+	text-decoration: none;
+	padding: 10px;
+	border-bottom: solid 4px #999;
+}
+
+/* COMMENT STREAM */
+.avatar {
+	float: left;
+	padding-right: 15px;
+}
+
+.comment {
+	float: left;
+}
+
+.comment-block {
+	overflow: hidden;
+	padding: 15px 15px 30px;
+	clear: both;
+}
+
+time {
+	color: #999;
+	font-size: 11px;
+}
+
+/* TABS */
+.tab {
+	border: solid 1px #6B8FB2;
+	border-radius: 6px 6px 0px 0px;
+	padding: 5px 10px;
+	margin-top: 3px;
+	position: relative;
+}
+
+a.tab-link{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.tab:active, .tab:hover, .open {
+	border-bottom: solid 1px #FFF;
+}
+
+.tab-content {
+	padding: 15px;
+	border: solid 1px #6B8FB2;
+	border-radius: 6px;
+	position: absolute;
+	margin-top: -1px;
+}
+
+.tab-wrap {
+	position: relative;
+	z-index: 1;
+}
